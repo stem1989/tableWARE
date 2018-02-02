@@ -1,0 +1,29 @@
+
+@mixin spacer($size, $dimension) {
+
+  border-collapse: collapse;
+
+  @if $dimension == 'w' {
+    width: $size;
+  } @else {
+    height: $size;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin img {
+  display: block; 
+  border: 0;
+}
+
+

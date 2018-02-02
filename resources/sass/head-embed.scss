@@ -1,0 +1,213 @@
+@import 'colors';
+@import 'typography';
+
+// Reset styles
+body {
+  margin: 0 auto !important;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  width: 100% !important;
+}
+
+div[style*="margin: 16px 0"] { 
+  margin: 0 auto !important; 
+  font-size:100% !important; 
+}
+
+.ExternalClass {
+  width:100%;
+  line-height: 100%;
+
+  span,
+  font,
+  td,
+  div,
+  p {
+    line-height: 100%;
+  }
+}
+
+.backgroundtable {
+  line-height: 100% !important;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+} 
+
+th {
+  font-weight: normal;
+}
+//  End reset
+
+// MOBILE TARGETING
+@media screen and (max-width: 414px) {
+
+  //  DEFAULT
+  .m-hide {
+    display: none !important;
+  }
+
+  .m-block {
+    display: block;
+    float: none;
+    width: 100% !important;
+  }
+
+  .m-clear {
+    float: none !important;
+  }
+
+  .m-center {
+    float: none !important;
+    margin: 0 auto;
+    text-align: center !important;
+  }
+    
+  .m-left {
+    float: none !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+
+  .m-pull--l {
+    float: left !important;
+    text-align: !important;
+  }
+
+  .m-pull--r {
+    float: right !important;
+    text-align: right !important;
+  }
+
+  //  GRID SYSTEM
+  .m-span10 {
+    width: 100% !important;
+  }
+
+  .m-span9 {
+    width: 90% !important;
+  }
+
+  .m-span5 {
+    width: 50% !important;
+  }
+
+  //  MARGINS
+  .m-margin--top {
+    margin-top: 15px;
+  }
+
+  .m-margin--bottom {
+    margin-bottom: 15px;
+  }
+
+  .m-margin--header {
+    margin-bottom: 12px;
+  }
+
+  .m-margin--left {
+    margin-left: 15px;
+  }
+
+  .m-margin--right {
+    margin-right: 15px;
+  }
+
+  //  HEADER QUERIES
+  .logo-bg {
+    background-image: url('http://www.rentalcars.com/emailimages/new-brand-email/rc-logo-new-460.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 180px 31px;
+    display: block;
+    height: 31px;
+    width: 180px;
+  }
+
+  //  FOOTER QUERIES
+  .footer .link {
+    background: $rc-gallery;
+    display: block !important;
+    margin-bottom: 1.5px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .footer {
+
+    .first {
+      border-radius: 6px 6px 0 0;
+    }
+
+    .last {
+      border-radius: 0 0 6px 6px;
+    }
+
+    .unsub {
+      border-radius: 6px;
+    }
+  }
+
+  .d-hide {
+    display: block !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+    max-height: none !important;
+    width: 20px !important;
+  }
+
+  //  MISC
+  .show {
+    display: block !important;
+    margin: 0 !important;
+    max-height: inherit !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    width: auto !important;
+  }
+}
+
+// NAV
+@media only screen and (max-width: 400px) {
+
+  .nav3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+
+  .nav4 {
+    display: none;
+  }
+
+  .main_nav td {
+    padding: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .nav5 {
+    display: none;
+  }
+
+  .main_nav {
+    td {
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 599px) {
+
+  .nav6 {
+    display: none;
+  }
+}
+
+//  More Specific Targeting
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}

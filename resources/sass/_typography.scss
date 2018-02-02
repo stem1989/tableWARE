@@ -1,0 +1,91 @@
+
+// ==========================================================================
+// Simple Typography Settings
+// ==========================================================================
+
+
+//Family
+$font-family: Arial, Helvetica, sans-serif;
+
+// Base Font for HTML
+$base-font-size: 16px;
+
+//Sizes
+$primary-heading: 30px;
+$secondary-heading: 22px;
+$tertiary-heading: 18px;
+$paragraph-text: 16px;
+$secondary-text: 16px;
+$tertiary-text: 14px;
+$quinternary-text: 11px;
+
+//Weight
+$bold: bold;
+$regular: normal;
+
+
+
+//Colors
+$paragraph-color: $rc-tundora;
+
+//Paragraphs
+
+.p {
+	font-family: $font-family;
+	font-size: $paragraph-text;
+	color: $paragraph-color;
+	font-weight: $regular;
+
+	&--2 {
+	font-size: $tertiary-text;
+	color: $rc-mineshaft;
+	}
+
+	&--3 {
+	font-size: $quinternary-text;
+	color: $rc-dove-gray;
+	}
+}
+
+//Headings
+
+.heading {
+   font-family: $font-family;
+   color: $rc-tundora;
+   font-weight: $bold;
+
+  &--primary {
+    font-size: $primary-heading;
+  }
+
+  &--secondary {
+    font-size: $secondary-heading;
+  }
+
+  &--tertiary {
+    font-size: $tertiary-heading;
+  }
+  
+}
+
+
+//Link (text)
+.link  {
+	color: $rc-science-blue;
+	text-decoration: none;
+}
+
+//Alignment
+.text-left {
+	text-align: left;
+
+}
+.text-center {
+	text-align: center;
+
+}
+.text-right {
+	text-align: right;
+
+}
+

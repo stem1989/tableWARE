@@ -1,0 +1,117 @@
+
+// Make type normal across browsers
+html, body {
+    font-size: $base-font-size;
+    font-family: $font-family;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+.spacer {
+
+  &-1-h {
+    height: 1px;
+  }
+
+  &-5-h {
+    height: 5px;
+  }
+
+  &-10-h {
+    height: 10px;
+  }
+
+  &-15-h {
+    height: 15px;
+  }
+
+  &-20-h {
+    height: 20px;
+  }
+
+   &-1-w {
+    width: 1px;
+  }
+
+  &-5-w {
+    width: 5px;
+  }
+
+  &-10-w {
+    width: 10px;
+  }
+
+  &-15-w {
+    width: 15px;
+  }
+
+  &-20-w {
+    width: 20px;
+  }
+}
+
+.tbl {
+
+  border-collapse: collapse;
+
+  &-610 {
+    width: 610px;
+  }
+
+  &-100 {
+    width: 100%;
+  }
+
+}
+
+.img {
+  @include img;
+}
+
+.text {
+  font-family: $font-family;
+  font-size: $paragraph-text;
+}
+
+.button {
+
+td, a {
+@include border-radius(4px);
+}
+
+a {
+  font-size: $base-font-size; 
+  font-family:$font-family;  
+  padding:10px 20px 10px 20px; 
+  font-weight:$bold;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+&--primary a, td {
+  background-color: $button-primary;
+  color: $white;
+}
+
+&--secondary-1 a, td {
+  background-color: $button-secondary-1;
+  color: $white;
+}
+
+&--secondary-2 a, td {
+  background-color: $button-secondary-2;
+  color: $rc-tundora;
+}
+
+&--secondary-3 a, td {
+  background-color: $button-secondary-3;
+  color: $rc-tundora;
+}
+
+}
+
+
