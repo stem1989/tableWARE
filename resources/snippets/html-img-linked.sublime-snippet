@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+<a target="_blank" href="#"><img src="$1" alt="" width="$2" height="$3" style="display: block; border: 0;" /></a>
+]]></content>
+<tabTrigger>img-linked</tabTrigger>
+<scope>text.html</scope>
+</snippet>

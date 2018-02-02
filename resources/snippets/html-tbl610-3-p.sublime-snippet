@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+<table class="m-span10" align="center" width="610" border="0" cellspacing="0" cellpadding="0" style="width: 610px;">
+  <tbody>
+    <tr>
+      <td width="15" style="width:15px;"></td>
+      <th class="m-block" width="183" align="center" style="width:183px;">$1CONTENT</th>
+      <td class="m-hide" width="15" style="width:15px;"></td>
+      <th class="m-block" width="183" align="center" style="width:183px;">$2CONTENT</th>
+      <td class="m-hide" width="15" style="width:15px;"></td>
+      <th class="m-block" width="183" align="center" style="width:183px;">$3CONTENT</th>
+      <td width="15" style="width:15px;"></td>
+    </tr>
+  </tbody>
+</table>
+]]></content>
+<tabTrigger>tbl-610-3-p</tabTrigger>
+<scope>text.html</scope>
+</snippet>

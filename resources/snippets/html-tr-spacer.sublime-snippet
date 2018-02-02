@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+<tr>
+  <td height="$1" style="height: $1px; line-height: $1px; font-size: $1px; mso-line-height-rule: exactly;" colspan="$2">&nbsp;</td>
+</tr>
+]]></content>
+<tabTrigger>tr-spacer</tabTrigger>
+<scope>text.html</scope>
+</snippet>

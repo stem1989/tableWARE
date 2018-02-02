@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<table class="m-span10" align="center" width="610" border="0" cellspacing="0" cellpadding="0" style="width: 610px;">
+  <tbody>
+    <tr>
+      <td height="15" align="center" style="height:15px;"></td>
+    </tr>
+  </tbody>
+</table>
+]]></content>
+<tabTrigger>tbl-610-spacer</tabTrigger>
+<scope>text.html</scope>
+</snippet>

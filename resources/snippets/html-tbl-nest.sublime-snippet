@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[
+	<table class="m-span9" bgcolor="#FFFFFF" align="center" width="610" border="0" cellspacing="0" cellpadding="0" style="width: 610px; background-color: #FFFFFF;">
+	      	  <tbody>
+	      	    <tr>
+	      	      <td class="m-hide" width="20" style="width: 20px;"></td>
+	      	      <td align="center">
+	      	      	<table align="center" class="m-span9" width="570" border="0" bgcolor="#$1" cellspacing="0" cellpadding="0" style="width: 570px; background-color: #S2">
+	      	      		<tr>
+	      	      			<td>
+	      	      				$3
+	      	      			</td>
+	      	      		</tr>
+	      	      	</table>
+	      	      </td>
+	      	      <td class="m-hide" width="20" style="width: 20px;"></td>
+	      	    </tr>
+	      	  </tbody>
+	      	</table>
+]]></content>
+<tabTrigger>tbl-nest</tabTrigger>
+<scope>text.html</scope>
+</snippet>

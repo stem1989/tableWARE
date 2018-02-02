@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+<font face="'Open sans', Arial, sans-serif">$1</font>
+]]></content>
+<tabTrigger>font-face</tabTrigger>
+<scope>text.html</scope>
+</snippet>

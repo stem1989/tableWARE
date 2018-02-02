@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://www.rentalcars.com/emailimages/devBuilder-min.js"></script>
+]]></content>
+<tabTrigger>widget</tabTrigger>
+<scope>text.html</scope>
+</snippet>

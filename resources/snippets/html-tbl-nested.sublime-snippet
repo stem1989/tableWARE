@@ -1,0 +1,41 @@
+<snippet>
+<content><![CDATA[
+<table class="m-span10" align="center" width="$1px" border="0" cellspacing="0" cellpadding="0" style="width: 610px;">
+	<tbody>
+		<tr>
+			<td align="center">
+				
+				<table align="center" border="0" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<td height="$2" style="height: $3px;"></td>
+						</tr>
+						<tr>
+							<td>
+								<table class="m-span9" align="center" width="$4" border="0" cellspacing="0" cellpadding="0" style="width: $5px;">
+									<tbody>
+										
+										<tr>
+											<td width="$6" style="width: $7px;"></td>
+											
+											<td width="$8" height="$9" style="width:570px"></td>
+											<td width="$10" style="width: $11px;"></td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="$12" style="height: $13px;"></td>
+						</tr>
+					</tbody>
+				</table>
+				
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></content>
+<tabTrigger>tbl-nested-with-spacers</tabTrigger>
+<scope>text.html</scope>
+</snippet>

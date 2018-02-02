@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<!--[if gte mso 9]>
+  <![endif]--> 
+]]></content>
+<tabTrigger>outlook-specific</tabTrigger>
+<scope>text.html</scope>
+</snippet>

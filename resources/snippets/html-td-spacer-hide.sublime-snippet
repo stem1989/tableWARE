@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+  <td class="m-hide" width="$1" style="width: $1px;"></td>
+]]></content>
+<tabTrigger>td-spacer-hide</tabTrigger>
+<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+ <img mc:edit="$1" width="$2" height="$3" style="border:none; display: block; width: $4px; height: $5px;" src="$6">
+]]></content>
+<tabTrigger>mc-image</tabTrigger>
+<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+<!--[if gte mso 9]>
+  <style>
+
+  </style>
+  <![endif]--> 
+]]></content>
+<tabTrigger>outlook-style</tabTrigger>
+<scope>text.html</scope>
+</snippet>

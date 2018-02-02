@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<table align="center" width="100%" bgcolor="#$1" border="0" cellspacing="0" cellpadding="0" style="width: 100%; background-color: #$1">
+  <tbody>
+    <tr>
+      <td align="center">$2</td>
+    </tr>
+  </tbody>
+</table>
+]]></content>
+<tabTrigger>tbl-100-bg</tabTrigger>
+<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+
+   @media screen and (-webkit-min-device-pixel-ratio:0) {
+
+   }
+
+]]></content>
+<tabTrigger>webkit-all</tabTrigger>
+<scope>text.html</scope>
+</snippet>

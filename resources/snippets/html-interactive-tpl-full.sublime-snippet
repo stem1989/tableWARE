@@ -1,0 +1,341 @@
+<snippet>
+<content><![CDATA[
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>Interactive Carousel</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="Steven Mansfield" />
+    <style type="text/css">
+    @media screen and (max-width:649px) {
+    .span10 {
+    width: 100% !important;
+    }
+    .new {
+    padding: 5px 14px !important;
+    }
+    
+    }
+
+    /*Target webkit based email clients*/
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+    .webkit {
+    display: block !important;
+    line-height: inherit !important;
+    max-height: auto !important;
+    overflow: visible !important;
+    visibility: visible !important;
+    }
+    .fallback {
+    display: none !important;
+    line-height: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+    }
+    
+    input { display:none; }
+    .new {
+    display:inline;
+    height: 40px;
+    width:40px;
+    text-align:center;
+    padding:12px 20px;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #label1 {
+    background-image: url('http://www.rentalcars.com/emailimages/GettyImages-701122116.jpg');
+    }
+    #label2 {
+    background-image: url('http://www.rentalcars.com/emailimages/GettyImages-626036938.jpg');
+    }
+    #label3 {
+    background-image: url('http://www.rentalcars.com/emailimages/GettyImages-473082556.jpg');
+    }
+    #label4 {
+    background-image: url('http://www.rentalcars.com/emailimages/GettyImages-693634264.jpg');
+    }
+    .tab{
+    margin:0 auto;
+    width:610px;
+    height:400px;
+    /* border:1px solid #ccc; */
+    text-align:center;
+    display:none;
+    clear:both;
+    }
+    #tab1:checked ~ .tab1,
+    #tab2:checked ~ .tab2,
+    #tab3:checked ~ .tab3,
+    #tab4:checked ~ .tab4 {
+    display:block;
+    }
+    .label_container {
+    margin-top: -50px;
+    display: block;
+    text-align: center;
+    }
+    td {
+    background-size: cover;
+    }
+    }
+    </style>
+  </head>
+  <body style="background-color:#fff;" bgcolor="#6c6c6c">
+    <!--[if gte mso 9]><!-->
+    <table class="webkit span10" width="610" align="center" border="0" cellspacing="0" cellpadding="0" style="display:none; overflow: hidden; visibility: hidden; line-height: 0; max-height: 0;">
+      <tbody>
+        <tr>
+          <td align="center">
+            
+            <!-- Input buttons are hidden in header CSS as default leaving their functionality behind -->
+            <input type="radio" name="tabs" id="tab1" checked>
+            <input type="radio" name="tabs" id="tab2">
+            <input type="radio" name="tabs" id="tab3">
+            <input type="radio" name="tabs" id="tab4">
+            <!-- Slide 1 -->
+            <div class="tab tab1 span10">
+              <table class="span10" align="center" height="400" width="610" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td height="400" width="610" align="center" background="http://www.rentalcars.com/emailimages/GettyImages-701122116.jpg" style="border-radius: 15px;">
+                      <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                          
+                          <tr>
+                            <td>
+                              <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td align="center" width="20"></td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+
+                                      <!-- Label assigned to previous slide -->
+                                      <label style="padding-right: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab4">&#9001;</label>
+
+                                    </td>
+                                    <td align="center" width="500" style="border-radius: 15px">
+                                    </td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+
+                                      <!-- Label assigned to next slide -->
+                                      <label style="padding-left: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab2">&#9002;</label>
+
+                                    </td>
+                                    <td align="center" width="20"></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Slide 2 -->
+            <div class="tab tab2 span10">
+              <table class="span10" align="center" height="400" width="610" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td height="400" width="610" align="center" background="http://www.rentalcars.com/emailimages/GettyImages-626036938.jpg" style="border-radius: 15px;">
+                      <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                          
+                          <tr>
+                            <td>
+                              <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td align="center" width="20"></td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+
+                                      <!-- Label assigned to previous slide -->
+                                      <label style="padding-right: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab1">&#9001;</label>
+
+                                    </td>
+                                    <td align="center" width="500" style="border-radius: 15px">
+                                      
+                                    </td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+
+                                      <!-- Label assigned to next slide -->
+                                      <label style="padding-left: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab3">&#9002;</label>
+                                    </td>
+                                    <td align="center" width="20"></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Slide 3 -->
+            <div class="tab tab3 span10">
+              <table class="span10" align="center" height="400" width="610" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td height="400" width="610" align="center" background="http://www.rentalcars.com/emailimages/GettyImages-473082556.jpg" style="border-radius: 15px;">
+                      <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                          
+                          <tr>
+                            <td>
+                              <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td align="center" width="20"></td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+
+                                      <!-- Label assigned to previous slide -->
+                                      <label style="padding-right: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab2">&#9001;</label>
+
+                                    </td>
+                                    <td align="center" width="500" style="border-radius: 15px">
+                                      
+                                    </td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+
+                                      <!-- Label assigned to next slide -->
+                                      <label style="padding-left: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab4">&#9002;</label>
+
+                                    </td>
+                                    <td align="center" width="20"></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Slide 4 -->
+            <div class="tab tab4 span10">
+              <table class="span10" align="center" height="400" width="610" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td height="400" width="610" align="center" background="http://www.rentalcars.com/emailimages/GettyImages-693634264.jpg" style="border-radius: 15px;">
+                      <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                          
+                          <tr>
+                            <td>
+                              <table class="span10" align="center" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td align="center" width="20"></td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+
+                                      <!-- Label assigned to previous slide -->
+                                      <label style="padding-right: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab3">&#9001;</label>
+
+                                    </td>
+                                    <td align="center" width="500" style="border-radius: 15px">
+                                      
+                                    </td>
+                                    <td align="center" style="font-family: 'open sans', arial, san-serif; font-size: 30px; color: #fff; font-weight: bold; text-shadow: 3px 3px 3px #333;">
+                                      <!-- Label assigned to next slide -->
+                                      <label style="padding-left: 18px; background-color: #333; border-radius: 15px; opacity: 0.7;" for="tab1">&#9002;</label>
+
+                                    </td>
+                                    <td align="center" width="20"></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+           <!--  Bottom Controls -->
+            <div class="label_container">
+              <label class="new" id="label1" for="tab1"></label>
+              <label class="new" id="label2" for="tab2"></label>
+              <label class="new" id="label3" for="tab3"></label>
+              <label class="new" id="label4" for="tab4"></label>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!--<![endif]-->
+
+   <!--  Start of Fall back for non webkit clients -->
+    <table class="fallback span10" width="610" align="center" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td align="center">
+            <table align="center" height="400" width="610" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td height="400" width="610" align="center" background="http://www.rentalcars.com/emailimages/GettyImages-701122116.jpg" style="border-radius: 15px;">
+                    <!--[if gte mso 9]>
+                    <v:rect xmlns:v=urn:schemas-microsoft-com:vml fill=true stroke=false style="width:610px; height: 400px">
+                    <v:fill type=frame src="http://www.rentalcars.com/emailimages/GettyImages-701122116.jpg" color="#d3d8d9"></v:fill>
+                    <v:textbox style=mso-fit-shape-to-text:true inset=0,0,0,0>
+                    <![endif]-->
+                    <table align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tbody>
+                        
+                        <tr>
+                          <td>
+                            <table align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td height="400" style="height: 400px;">CONTENT GOES HERE</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                    <!--[if gte mso 9]>
+                    </v:textbox>
+                    </v:rect>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+]]></content>
+<tabTrigger>interactive-tpl-full</tabTrigger>
+<scope>text.html</scope>
+</snippet>

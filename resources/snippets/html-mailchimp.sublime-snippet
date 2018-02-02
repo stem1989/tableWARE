@@ -1,0 +1,78 @@
+<snippet>
+<content><![CDATA[
+	/**
+* @tab background
+* @section background color
+* @tip Set the body background color.
+* @style main headline
+*/
+.mc-bg {
+	/*@editable*/ background-color:#000000;	
+}
+/**
+* @tab header
+* @section main headline
+* @tip Set the styling for all first-level headings in your emails.
+* @style main headline
+*/
+.mc-h1 {
+	/*@editable*/ color:#ffffff;
+	/*@editable*/ font-size:26px;
+	/*@editable*/ font-weight:bold;
+	/*@editable*/ text-align:center;
+	/*@editable*/ line-height:30px;
+}
+/**
+* @tab header
+* @section sub headline
+* @tip Set the styling for all second-level headings in your emails.
+* @style sub headline
+*/
+.mc-h2 {
+	/*@editable*/ color:#ffffff;
+	/*@editable*/ font-size:18px;
+	/*@editable*/ font-weight:bold;
+	/*@editable*/ text-align:center;
+	/*@editable*/ line-height:20px;
+}
+/**
+* @tab body
+* @section main copy blocks
+* @tip Set the styling for all paragraphs in your emails.
+* @style main copy blocks
+*/
+.mc-p {
+	/*@editable*/ color:#ffffff;
+	/*@editable*/ font-size:14px;
+	/*@editable*/ font-weight:normal;
+	/*@editable*/ text-align:center;
+	/*@editable*/ line-height:16px;
+}
+/**
+* @tab body
+* @section Backgrounds
+* @tip Set the background image.
+*/
+.mc-tbl-bg {
+	/*@editable*/ background-image: url('https://www.yourdomain.com/images/image.jpg');	
+	/*@editable*/ background-color: #ffffff;
+
+}
+/**
+* @tab footer
+* @tip Set the styling for all footer elements in your emails.
+*/
+.mc-p-footer {
+	/*@editable*/ color:#ffffff;
+	/*@editable*/ font-size:14px;
+	/*@editable*/ font-weight:normal;
+	/*@editable*/ text-align:center;
+	/*@editable*/ line-height:16px;
+}
+.mc-bg-footer {
+	/*@editable*/ background-color: #000000;
+}
+]]></content>
+<tabTrigger>mailchimp</tabTrigger>
+<scope>text.html</scope>
+</snippet>

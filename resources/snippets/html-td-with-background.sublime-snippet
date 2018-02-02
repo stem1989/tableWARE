@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+<td height="$1" background="$2" align="center">
+	 <!--[if gte mso 9]>
+      <v:image src="$2" xmlns:v="urn:schemas-microsoft-com:vml" style="width:$3px;height:$1px;" />
+      <v:rect fill="true" stroke="false" style="position:absolute;width:$3px;height:$1px;">
+      <v:fill opacity="0">
+      <div>
+      <![endif]-->
+      
+		<table align="center" border="0" cellspacing="0" cellpadding="0">
+		  <tbody>
+		    <tr>
+		      <td align="center">$4</td>
+		    </tr>
+		  </tbody>
+		</table>
+
+		<!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+</td>
+
+]]></content>
+<tabTrigger>td-with-background</tabTrigger>
+<scope>text.html</scope>
+</snippet>

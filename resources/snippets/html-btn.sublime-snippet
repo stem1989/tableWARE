@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td align="$1" style="border-radius: $2px;" bgcolor="#$3">
+			<a href="#" target="_blank" style="font-size: 14px; font-family: 'Open Sans', Arial, sans-serif; color: #$4; text-decoration: none; border-radius: $2px; padding: $5px $6px; border: 10px solid #$3; display: inline-block;">$7</a>
+		</td>
+	</tr>
+</table>
+]]></content>
+<tabTrigger>btn</tabTrigger>
+<scope>text.html</scope>
+</snippet>

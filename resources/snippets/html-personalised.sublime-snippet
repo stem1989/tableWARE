@@ -1,0 +1,59 @@
+<snippet>
+<content><![CDATA[
+<!-- PERSONALSIED SECTION -->
+          <table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; background: #FFFFFF;">
+                  <tr>
+                    <td style="border-collapse: collapse; width: 100%; height: 15px;" height="15"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="border-collapse: collapse; width: 100%;">
+                      <table class="m-span9" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 610px;" align="center">
+                        <tr>
+                          <td align="center" style="border-collapse: collapse; width: 100%; font-family: Arial, Sans-Serif; color: #a17f0a; font-size: 14px; text-align: center;">
+                            <table class="m-span9" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 610px;" align="center">
+                              <tbody>
+                                <tr>
+                                  <th class="m-block" style="border-collapse: collapse; width: 100px;"> <a href="[location_url]" target="_blank"><img class="m-center m-margin--bottom-s" width="100" height="67" border="0" src="http://www.rentalcars.com/images/car_images/new_images/hyundai/i20_lrg.jpg" style="border:none 0; display:block; -ms-interpolation-mode:bicubic;"></a></th>
+                                  <td class="m-hide" style="border-collapse: collapse; width: 20px;"></td>
+                                  <th class="m-block m-center m-margin--bottom" style="border-collapse: collapse; text-align: left;">
+                                    <table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="m-center" style="border-collapse: collapse;"> <font style="font-family: Arial, Sans-serif; color: #444444; font-size: 14px;"> <span style="color: #444444; font-size: 16px; font-weight: normal;">Pick up where you left off [firstname]</span> <br>Search for a car at <a target="_blank" href="[location_url]" style="font-weight: bold; text-decoration: none; color: #444444;">[location]</a></font></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="m-block" style="border-collapse: collapse;">
+                                    <table cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="right">
+                                            <table class="m-center" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <td class="btn-secondary" align="right" style="border-radius: 20px;" bgcolor="#0E94F7"> <a href="[location_url]" target="_blank" style="font-size: 16px; font-family: arial, helvetica, sans-serif; color: #FFFFFF; text-decoration: none; border-radius: 20px; padding:12px 20px 12px 20px; display: inline-block; font-weight: normal;">Car hire in [location]</a></td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr style="border-collapse: collapse; width: 100%; height: 15px;" height="15">
+                    <td></td>
+                  </tr>
+                </table>
+          <!--[END] PERSONALSIED SECTION -->
+]]></content>
+<tabTrigger>personalised</tabTrigger>
+<scope>text.html</scope>
+<description>Personalised module</description>
+</snippet>

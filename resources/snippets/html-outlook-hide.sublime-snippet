@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+<!--[if gte mso 9]><!-->
+          Content Goes here that Outlook cant see
+<!--<![endif]-->
+]]></content>
+<tabTrigger>outlook-hide</tabTrigger>
+<scope>text.html</scope>
+</snippet>

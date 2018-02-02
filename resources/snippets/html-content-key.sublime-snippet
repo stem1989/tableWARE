@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+<span data-type="content-message" data-key="$1" data-lang="en" data-cor="gb"></span>
+]]></content>
+<tabTrigger>c</tabTrigger>
+<scope>text.html</scope>
+</snippet>

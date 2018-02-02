@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+<img src="$1" alt="" width="$2" height="$3" style="display: block; border: 0;" />
+]]></content>
+<tabTrigger>img</tabTrigger>
+<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+<!--RESPONSIVE IMAGE-->
+          <a target="_blank" href="https://www.rentalcars.com/Home.do?affiliateCode=return&preflang=en&cor=gb&adplat=email&adcamp=&adco=205"><img class="responsive-img" src="$1" alt="Rentalcars.com" width="$2" height="$3" style="display: block; border: 0;" /></a>
+          <!--[END] RESPONSIVE IMAGE-->
+
+          CSS
+          /* Basic Fluid Image Pattern CSS */
+    @media only screen and (max-width: 599px) {
+                  .responsive-img {
+                      width: 100% !important;
+                      max-width: 500px !important;
+                      height: auto !important;
+                  }
+              }
+
+]]></content>
+<tabTrigger>img-r</tabTrigger>
+<scope>text.html</scope>
+</snippet>

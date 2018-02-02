@@ -1,0 +1,36 @@
+<snippet>
+<content><![CDATA[
+<!-- NAV -->
+          <table class="m-span10" align="center" width="610" border="0" cellspacing="0" cellpadding="0" style="width: 610px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                <table align="center" width="100%" cellpadding="0" cellspacing="0">
+                  <tbody>
+                    <tr>
+                      <td align="center" class="main_nav" width="610">
+                        <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="padding: 10px 10px; font-family: arial,sans-serif; font-size: 12px; border-right:1px solid #DDDDDD;">   <a class="nav-link" href="http://www.rentalcars.com/en/locations/countries/?affiliateCode=return&cor=gb&preflang=en&prefcurrency=gbp&adplat=email&adcamp=-2017-03-10&adco=10&mailtype=NewsletterTuesday" style="text-decoration: none; color: #a1a1a1;">   Popular Countries</a>  </td>
+                              <td align="center" style="padding: 10px 10px; font-family: arial,sans-serif; font-size: 12px;border-right:1px solid #DDDDDD;">   <a class="nav-link" href="http://www.rentalcars.com/en/locations/cities/?affiliateCode=return&cor=gb&preflang=en&prefcurrency=gbp&adplat=email&adcamp=-2017-03-10&adco=11&mailtype=NewsletterTuesday" style="text-decoration: none; color: #a1a1a1;">   Popular Cities</a>  </td>
+                              <td class="nav3" align="center" style="padding: 10px 10px; font-family: arial,sans-serif; font-size: 12px;border-right:1px solid #DDDDDD;">   <a class="nav-link" href="http://www.rentalcars.com/en/locations/airports/?affiliateCode=return&cor=gb&preflang=en&prefcurrency=gbp&adplat=email&adcamp=-2017-03-10&adco=12&mailtype=NewsletterTuesday" style="text-decoration: none; color: #a1a1a1;">   Popular Airports</a>   </td>
+                              <td class="nav4" align="center" style="padding: 10px 10px; font-family: arial,sans-serif; font-size: 12px;">   <a class="nav-link" href="http://www.rentalcars.com/en/locations/?affiliateCode=return&cor=gb&preflang=en&prefcurrency=gbp&adplat=email&adcamp=-2017-03-10&adco=13&mailtype=NewsletterTuesday" style="text-decoration: none; color: #a1a1a1;">   All Countries</a>  </td>
+                              
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+          <!-- [END] NAV -->
+]]></content>
+<tabTrigger>nav</tabTrigger>
+<scope>text.html</scope>
+<description>610 nav bar</description>
+</snippet>

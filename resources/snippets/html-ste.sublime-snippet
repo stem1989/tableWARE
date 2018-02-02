@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+http://www.stevenmansfield.com/emailimages/$1
+]]></content>
+
+<tabTrigger>ste</tabTrigger>
+
+</snippet>

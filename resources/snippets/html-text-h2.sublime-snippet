@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+font-family: arial, Helvetica, sans-serif; font-size: 22px; color: #444444; line-height:1.4; font-weight:bold;
+]]></content>
+<tabTrigger>text-h2</tabTrigger>
+<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,269 @@
+<snippet>
+<content><![CDATA[
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="sg:pagetag" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" href="http://cdn.rcstatic.com/images/rclogo/blue/logomark-rclogo_32x32.png" />
+<title>Rental Cars</title>
+<style>
+@media screen and (max-width:600px) {
+.full, .full-nav, .full-ksp, .none-s, .full-mso {
+	width: 100%!important;
+	height: auto!important;
+	padding-left: 0!important;
+	padding-right: 0!important;
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+}
+.full-cta {
+	padding-top: 8px!important;
+	padding-bottom: 8px!important;
+}
+.nav {
+	font-size: 11px!important;
+}
+.full-nav {
+	display: none !important;
+}
+.logo {
+	width: 50% !important;
+
+}
+
+.logo img {
+	display: block;
+    max-width: 240px;
+    padding-top: 12px !important;
+    padding-left: 10px !important;
+}
+.mobileNavigation {
+	display: block!important;
+	max-height: none !important;
+}
+#wrapper + table, .container, .menu {
+	min-width: 0 !important;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	width: 100%!important;
+}
+#mobile-label {
+	cursor: pointer;
+	display: block !important;
+	margin-right: 0px;
+	-webkit-tap-highlight-color: transparent;
+	z-index: 1000!important;
+	position: relative!important;
+	font-size: 13px!important;
+	visibility: visible!important;
+}
+
+.menu-wrapper {
+	
+	width: 90%!important;
+	padding-right: 5%!important;
+	padding-left: 5%!important;
+	background-color: #ffffff!important;
+	margin-top: 0px;
+	max-height: 0;
+	overflow: hidden;
+	-moz-transition: max-height .25s linear;
+	-ms-transition: max-height .25s linear;
+	-o-transition: max-height .25s linear;
+	-webkit-transition: max-height .25s linear;
+	transition: max-height .25s linear;
+}
+#mobile-checkbox:checked + table .menu-wrapper {
+	max-height: 550px;
+	text-align: left;
+	    background-color: #ededed !important;
+}
+.nocta {
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 45px;
+	color: #303030!important;
+	text-decoration: none!important;
+	border-radius: 0px!important;
+	display: inline-block!important;
+	font-size: 12px!important;
+	border-bottom: 1px solid #f1f1f1;
+	width: 100%;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.show {
+	display: inline-block!important;
+	visibility: visible!important;
+	max-height: none!important;
+	font-size: 12px!important;
+}
+.showIcon {
+	display: block!important;
+	visibility: visible!important;
+	max-height: none!important;
+	font-size: 12px!important;
+	width: 14px!important;
+	position: relative!important;
+	top: -4px!important;
+}
+.mobileLink::after {
+	content: "\203A";
+	float: right;
+	font-size: 18px;
+	font-family: Tahoma;
+}
+.hamburger {
+	width: 18% ! important;
+    padding: 8%;
+    border-left: 1px solid #ddd;
+   
+    background-color: white;
+    float: right;
+}
+
+.border-header {
+	 border-bottom: 1px solid #ddd;
+}
+body {
+	border-top: 5px solid #1b65a4;
+}
+.burger-icon {
+	width: 100% !important;
+    display: block!important;
+}
+.full-cta {
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+}
+.quarter-top {
+	padding-bottom: 5px!important;
+	padding-top: 10px!important;
+}
+.hide-on-mobile {
+	display: none !important;
+}
+
+
+}
+</style>
+
+</head>
+
+<body class="body" bgcolor="#ffffff" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="-webkit-font-smoothing:antialiased; width:100%!important; min-width:100%!important; background:#ffffff; -webkit-text-size-adjust:none; text-align:center">
+    <table width="600" class="full" bgcolor="#ffffff" align="center" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed; margin:0 auto; width:600px; min-width:320px!important;">
+        <tbody>
+            <tr>
+                <td>
+                   
+             
+             		 <table width="600" height="23" align="center" class="full hide-on-mobile" border="0" cellpadding="0" cellspacing="0" style="line-height:23px;">
+                        <tbody>
+                            <tr>
+                                <td style="line-height:23px; mso-line-height-rule:exactly;">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                 
+                    <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="full border-header">
+                        <tbody>
+                            <tr>
+                            
+                                
+                                <td valign="top" align="center" class="logo">
+                                    <a target="_blank" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9yNMmCsyjewLSVO4KRiM94KY6CsepGe6cRv7Zc6CHjJGNbN2XBC9huYBzB4nM0EA3JZ8sGncZq9uGe6ykfupOTTYA9De"><img width="240" class="full" border="0" alt="Matalan" style="display: block; max-width:240px;" src="http://www.rentalcars.com/emailimages/trans/rc-logo.png" /></a>
+                                </td>
+                                <!-- checkbox start -->
+                                <!--[if !mso]><!-->
+                                <td valign="middle" align="center" width="12%" class="burger-icon" style="display:none;">
+                                    <div style="display:none; max-height:0px; overflow:hidden;" class="mobileNavigation">
+                                        <label for="mobile-checkbox" id="mobile-label" style="display: none; font-size: 0px; visibility: hidden;"><img class="hamburger" alt="" width="20" style="display: inline-block; max-width: 100%;" border="0" src="https://matalan.slgnt.eu/images/newsletters/2017/wk-31/SaleContinues/MatalanBurger2x.png" /></label>
+                                    </div>
+                                </td>
+                                <!--<![endif]-->
+                                <!-- checkbox end -->
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="600" height="23" align="center" class="full hide-on-mobile" border="0" cellpadding="0" cellspacing="0" style="line-height:23px;">
+                        <tbody>
+                            <tr>
+                                <td style="line-height:23px; mso-line-height-rule:exactly;">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="300" class="full" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="center">
+                        <tbody>
+                            <tr>
+                                <td valign="top" align="left" bgcolor="#ffffff">
+                                    <div style="display: none; max-height: 0; visibility: hidden;" class="show up">
+                                        <input id="mobile-checkbox" style="display: none!important; max-height: 0; visibility: hidden;" type="checkbox" />
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="display: none; max-height: 0; visibility: hidden;" class="show up">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left" valign="middle" style="font-family: Verdana, Arial, sans-serif; color:#ffffff; font-size: 1px" class="width230 / block">
+                                                        <div class="menu-wrapper" align="left"><a id="Untitled12" target="_blank" style="text-decoration: none; color: #ffffff" class="nocta menu mobileLink" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9UxERIS%2BoTYt4MT5KGqR5IAISMWm%2BdgJa8Gzu26Gti4WNYh2b8lmHAZX1xjVPxx3ehFSYewg5ioyJt6ohafEkQEvK5Dl"><span>POPULAR COUNTRIES</span></a><a id="Untitled17" target="_blank" style="text-decoration: none; color: #ffffff" class="nocta menu mobileLink" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9yI19HvLwUyU7kJEW0ki%2BMylxcirM68TyA%2BRQeb1kZTxNXUIsTtth_IG6V%2ByhuFMMy%2B5hDnposxfaI1uktwWHJJBY1Dl"><span>POPULAR CITIES</span></a><a id="Untitled13" target="_blank" style="text-decoration: none; color: #ffffff" class="nocta menu mobileLink" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9UFTZ31nb1seAMXi1UR6MSmuEdTDtMuufpvZnwyxMalWW%2BA_jqUDqIxnilMcqavNBIR136GJbTERRmu%2BZFyDmysMg5DR"><span>POPULAR AIRPORTS</span></a><a id="Untitled14" target="_blank" style="text-decoration: none; color: #ffffff" class="nocta menu mobileLink" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9N0YURxQhEy4Rk9GX00vvCJHJWTv7UvR6rDh3LEgVFsfzXXC%2BblrE261PybuGM2yE67qxnzgyjPp83d_WnSPwI2dj1Dv"><span>ALL COUNTRIES</span></a></div>
+                                                        <!-- menu wrapper end -->
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- 100% wrap end -->
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="600" height="1" align="center" bgcolor="#EEEEEE" class="full-nav" border="0" cellpadding="0" cellspacing="0" style="line-height:1px;">
+                        <tbody>
+                            <tr>
+                                <td style="font-size:1px; line-height:1px; mso-line-height-rule:exactly;">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="600" align="center" bgcolor="#ffffff" class="full-nav" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <th class="split" style="padding-left:0px; padding-right:0px;">
+                                    <table width="600" bgcolor="#ffffff" class="full" border="0" cellpadding="0" cellspacing="0" style="width:600px;">
+                                        <tbody>
+                                            <tr>
+                                                <td width="30%" align="center" class="quarter-top" style="line-height:13px; mso-line-height-rule:exactly; padding-top:10px; padding-bottom:9px;"><a target="_blank" class="nav" style="font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:12px; font-weight:normal; color:#343a3f; display:block;" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9UjrSR7RbtDhzat0ZdoxApbPh%2BfwMvf9bu0hHNKYrx_JzXh7SqSABOx_o2lw8nSgqalV5xQgCNZpRGcNOCNPKydcWIDc">POPULAR COUNTRIES</a></td>
+                                                <td width="23%" align="center" class="quarter-top" style="line-height:13px; mso-line-height-rule:exactly; padding-top:10px; padding-bottom:9px;"><a target="_blank" class="nav" style="font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:12px; font-weight:normal; color:#343a3f; display:block;" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9UGQQgvLLBwBwYmZsNXyskalTpdOyXX2MjyM7wMYQjBkWbMVbUYkC74PjtkjAGOh_Si%2B_pztiKE27FYBGaJWTIyEonDm">POPULAR CITIES</a></td>
+                                                <td width="24%" align="center" class="quarter-top" style="line-height:13px; mso-line-height-rule:exactly; padding-top:10px; padding-bottom:9px;"><a target="_blank" class="nav" style="font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:12px; font-weight:normal; color:#343a3f; display:block;" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9UfclB1zCbd3d3KOPsFM0Qge9_0dpP8fEP9cncVGs7E8WXs8s5nS5S5IhbiA2rIEFYMF6iKv2egNa_kRdZNqoQHz%2BIDn">POPULAR AIRPORTS</a></td>
+                                                <td width="23%" align="center" class="quarter-top" style="line-height:13px; mso-line-height-rule:exactly; padding-top:10px; padding-bottom:9px;"><a target="_blank" class="nav" style="font-family:Arial, Helvetica, sans-serif; text-decoration:none; font-size:12px; font-weight:normal; color:#343a3f; display:block;" href="https://matalan.slgnt.eu/optiext/optiextension.dll?id=DR9UyaFXCzzUza2X5C94gaxcTNDIvBr8Y6vOLVTviU%2BoyvWbfAudMs2MZN2Lw8oPbXzQDA5zzhcq9yeBQ9nJRWrJXbdnDx">ALL COUNTRIES</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </th>
+                            
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                   
+                    
+                    
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+]]></content>
+<tabTrigger>hamburger</tabTrigger>
+<scope>text.html</scope>
+</snippet>

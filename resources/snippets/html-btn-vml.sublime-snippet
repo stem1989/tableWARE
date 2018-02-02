@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:$1px;v-text-anchor:middle;width:$2px;" arcsize="$3" fillcolor="#$4">
+    <w:anchorlock/>
+    <center style="color:#$5;font-family:sans-serif;font-size:13px;font-weight:bold;">$7</center>
+  </v:roundrect>
+<![endif]--><a href="#"
+style="background-color:#$4;border-radius:$6px;color:#$5;display:inline-block;font-family:'Open Sans', Arial, sans-serif;font-size:14px;font-weight:bold;line-height:$1px;text-align:center;text-decoration:none;width:$2px;-webkit-text-size-adjust:none;mso-hide:all;">$7</a></div>
+]]></content>
+<tabTrigger>btn-vml</tabTrigger>
+<scope>text.html</scope>
+</snippet>

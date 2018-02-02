@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+
+   @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 439px) {
+
+   }
+
+]]></content>
+<tabTrigger>webkit-mob</tabTrigger>
+<scope>text.html</scope>
+</snippet>
