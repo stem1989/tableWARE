@@ -1,0 +1,17 @@
+{
+  "name": "auto-builds",
+  "description": "automation of email build tasks",
+  "main": "index.js",
+  "authors": [
+    "Brent Starling <BrentStarling@rentalcars.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
