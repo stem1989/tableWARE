@@ -1,0 +1,275 @@
+.p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #444444;
+  font-weight: normal;
+}
+
+.p--2 {
+  font-size: 14px;
+  color: #333333;
+}
+
+.p--3 {
+  font-size: 11px;
+  color: #717171;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  font-weight: bold;
+}
+
+.heading--primary {
+  font-size: 30px;
+}
+
+.heading--secondary {
+  font-size: 22px;
+}
+
+.heading--tertiary {
+  font-size: 18px;
+}
+
+.link {
+  color: #0771c4;
+  text-decoration: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.preheader {
+  background-color: #0e94f7;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.preheader-blue {
+  background: #0e94f7;
+  border-collapse: collapse;
+  color: #fdfefe;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.preheader-link {
+  color: #fdfefe;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.logo .rc-logo {
+  border: 0;
+  color: #0e94f7;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 39px;
+  width: 230px;
+}
+
+.main_nav td {
+  border-right: 1px solid #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+}
+
+.main_nav td:last-child {
+  border-right: 0 !important;
+}
+
+.main_nav a {
+  color: #444444;
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none !important;
+}
+
+.link-blue {
+  color: #0e94f7;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.social-link {
+  background-color: #ffffff;
+  padding-top: 0;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: #444444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  width: 70%;
+}
+
+.footer-text .link {
+  color: #0e94f7;
+  text-decoration: none;
+}
+
+.hr {
+  border-bottom: 1px solid #eeeeee;
+  border-collapse: collapse;
+  height: 10px;
+}
+
+.rentalcars-ringo {
+  border: 0;
+  display: block;
+  height: 42px;
+  -ms-interpolation-mode: bicubic;
+  width: 30px;
+}
+
+.notification {
+  width: 610px;
+}
+
+.notification--info {
+  border-left: 5px solid #0F6193;
+  background-color: #E7EFF4;
+}
+
+.notification--negative {
+  border-left: 5px solid #930F0F;
+  background-color: #F4E7E7;
+}
+
+.notification--positive {
+  border-left: 5px solid #0F9354;
+  background-color: #E7F4ED;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.spacer-1-h {
+  height: 1px;
+}
+
+.spacer-5-h {
+  height: 5px;
+}
+
+.spacer-10-h {
+  height: 10px;
+}
+
+.spacer-15-h {
+  height: 15px;
+}
+
+.spacer-20-h {
+  height: 20px;
+}
+
+.spacer-1-w {
+  width: 1px;
+}
+
+.spacer-5-w {
+  width: 5px;
+}
+
+.spacer-10-w {
+  width: 10px;
+}
+
+.spacer-15-w {
+  width: 15px;
+}
+
+.spacer-20-w {
+  width: 20px;
+}
+
+.tbl {
+  border-collapse: collapse;
+}
+
+.tbl-610 {
+  width: 610px;
+}
+
+.tbl-100 {
+  width: 100%;
+}
+
+.img {
+  display: block;
+  border: 0;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.button td, .button a {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.button a {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button--primary a, .button td {
+  background-color: #0F9354;
+  color: #ffffff;
+}
+
+.button--secondary-1 a, .button td {
+  background-color: #0E94F8;
+  color: #ffffff;
+}
+
+.button--secondary-2 a, .button td {
+  background-color: #eeeeee;
+  color: #444444;
+}
+
+.button--secondary-3 a, .button td {
+  background-color: #ffffff;
+  color: #444444;
+}
+
+/*# sourceMappingURL=inline.css.map */
