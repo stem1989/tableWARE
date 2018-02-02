@@ -1,0 +1,156 @@
+<!-- Code from Wilbert Heinen Litmus Hacks session about relative heights for fullwidth background images width vw: https://litmus.com/builder/16649b6 -->
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta charset="utf-8" />
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="shortcut icon" href="http://www.volkswagen.nl/img/vwglobal/favicon.ico" type="image/x-icon" />
+<title>VW to the rescue</title>
+<!-- Reset Styles -->
+<style type="text/css">
+div, p, a, li, td, body {-webkit-text-size-adjust: none; -ms-text-size-adjust: none}
+table, td, th {border-collapse: collapse; border-spacing: 0; font-weight: normal}
+body, table, td, th, p, ul, ol, li {margin: 0; padding: 0}
+img {-ms-interpolation-mode: bicubic; display: block; border: 0}
+body {width: 100% !important; height: 100% !important; background-color: #eaeced}
+#outlook a {padding: 0}
+p {margin: 1em 0}
+ul, ol, li {padding: 0 !important; margin: 0 !important; margin: 5px 0 5px 5px !important}
+ul, ol {padding: 0 0 0 10px !important}
+a, a:link, a:visited, a:hover {color: #000000; text-decoration: underline}
+a.phonenumber {pointer-events: none; cursor: default}
+.wrapper {table-layout: fixed}
+</style>
+<!-- Responsive Styles -->
+<style type="text/css">
+@media only screen and (max-width: 480px) {
+.w100pc {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.height-auto {
+    height: auto !important;
+}
+.hide-on-mobile {
+    display: none !important;
+}
+.show-on-mobile {
+    display: block !important;
+    width: auto !important;
+    max-height: inherit !important;
+    overflow: visible !important;
+    float: none !important;
+}
+a.phonenumber {
+    pointer-events: auto !important;
+    cursor: auto !important;
+}
+.image1 {
+    background: url(https://placem.at/places?w=640&h=320&txt=height:calc50vw) center center / 100% 100% no-repeat;
+    width: 100vw;
+    height: -webkit-calc(50vw);
+    height: -moz-calc(50vw);
+    height: calc(50vw);
+}
+.image2 {
+    background: url(https://placem.at/places?w=640&h=320&txt=height:50vw) center center / 100% 100% no-repeat;
+    width: 100vw;
+    height: 50vw;
+}
+.image3 {
+    background: url(https://placem.at/places?w=640&h=320&txt=padding-bottom:50pc) center center / 100% 100% no-repeat;
+    padding-bottom: 50%;
+}
+.image4 {
+    background: url(https://placem.at/places?w=640&h=320&txt=padding-bottom:50vw) center center / 100% 100% no-repeat;
+    width: 100vw;
+    padding-bottom: 50vw;
+}
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img {
+    display: none !important;
+}
+}
+</style>
+<!--[if !mso]><!-->
+<!-- Windows Phone 8.1 Fix -->
+<style type="text/css">
+@media only screen and (max-width:480px) {
+    @-ms-viewport {
+        width: 320px;
+    }
+    @viewport {
+        width: 320px;
+    }
+}
+</style>
+<!--<![endif]-->
+<!-- iOS Date/Phonenumber Reset Styles -->
+<style type="text/css">
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+</style>
+<!-- Android 4.4 Center Fix Styles -->
+<style type="text/css">
+div[style*="margin: 16px 0;"] {
+    margin: 0 !important;
+    max-width: 94% !important;
+}
+</style>
+<!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<style type="text/css">
+* {
+mso-line-height-rule: exactly;
+mso-margin-bottom-alt: 0;
+mso-margin-top-alt: 0;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+</style>
+<![endif]-->
+<!--[if gte mso 12]>
+<style type="text/css">
+li {
+margin: 5px 0 5px 20px !important;
+text-indent: -1em;
+}
+</style>
+<![endif]-->
+</head>
+<body>
+    <table class="wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #eaeced">
+        <tr>
+            <td class="hide-on-mobile" style="font-size: 0px">&nbsp;</td>
+            <td class="w100pc" width="640" style="width: 640px; max-width: 640px; text-align: center; vertical-align: top">
+                <div class="image1">
+                    <img src="https://placem.at/places?w=640&h=320&txt=Image1" alt="" width="640" style="min-width: 100%; width: 640px; max-width: 100%; border: 0; display: block" />
+                </div>
+                <div class="image2">
+                    <img src="https://placem.at/places?w=640&h=320&txt=Image2" alt="" width="640" style="min-width: 100%; width: 640px; max-width: 100%; border: 0; display: block" />
+                </div>
+                <div class="image3">
+                    <img src="https://placem.at/places?w=640&h=320&txt=Image3" alt="" width="640" style="min-width: 100%; width: 640px; max-width: 100%; border: 0; display: block" />
+                </div>
+                <div class="image4">
+                    <img src="https://placem.at/places?w=640&h=320&txt=Image4" alt="" width="640" style="min-width: 100%; width: 640px; max-width: 100%; border: 0; display: block" />
+                </div>
+            </td>
+            <td class="hide-on-mobile" style="font-size: 0px">&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>

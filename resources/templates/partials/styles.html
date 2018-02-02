@@ -1,0 +1,406 @@
+<!-- $$$$$ Style Sheet Module Starts -->
+<style>
+		/*gmail reset*/
+		u + .body a {
+		color: inherit;
+		text-decoration: none;
+		font-size: inherit;
+		font-family: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		}
+		/* Android 4.4 margin */
+				div[style*="margin: 16px 0"]{
+					margin: 0 auto !important;
+					font-size: 100% !important;
+				}
+		</style>
+		<style type="text/css">
+			/*Reset Styles*/
+			body {
+				width: 100%!important;
+				-webkit-text-size-adjust: 100%;
+				-ms-text-size-adjust: 100%;
+				margin: 0;
+				padding: 0
+				}
+				/*Reset iOS links*/
+		a[x-apple-data-detectors]{
+				color: inherit !important;
+				text-decoration: none !important;
+				font-size: inherit !important;
+				font-family: inherit !important;
+				font-weight: inherit !important;
+				line-height: inherit !important;
+		}
+		/*Samsung Full width issue*/
+		#MessageViewBody, #MessageWebViewDiv{
+		width: 100% !important;
+		}
+		/*Samsung Mail Turning dates into blue links*/
+		#MessageViewBody a {
+		color: inherit;
+		text-decoration: none;
+		font-size: inherit;
+		font-family: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		}
+		/* Don't know what this does but scared to remove :) */
+		#outlook a {
+			padding: 0;
+		}
+		/*SFR grey padding issue*/
+		th a,
+		th a:link,
+		th a:visited {
+				color: inherit;
+				padding-right: 0;
+		}
+		/*SFR and other clients left align whole email fix*/
+		.parent {
+				margin: 0 auto;
+		}
+		
+		table td {
+			mso-table-lspace: 0;
+			mso-table-rspace: 0;
+		}
+		/*Standard Media Query*/
+		@media only screen and (max-width: 420px) {
+		/*Gmail width issue - body must have class="body" */
+		u + .body {
+			min-width: 100vw;
+		}
+		/*Show Fall backs*/
+		.fallback-hamburger {
+			display: block !important;
+		}
+		.fallback-video {
+			display: block !important;
+		}
+		.fallback-interactive {
+			display: block !important;
+		}
+		/*fonts*/
+		.m-center {
+			text-align: center !important;
+		}
+		.m-left {
+			text-align: left !important;
+		}
+		.m-right {
+			text-align: right !important;
+		}
+		.m-font-12 {
+			font-size: 12px !important;
+		}
+		.m-font-14 {
+			font-size: 14px !important;
+		}
+		.m-font-16 {
+			font-size: 16px !important;
+		}
+		.m-font-18 {
+			font-size: 18px !important;
+		}
+		.m-font-20 {
+			font-size: 20px !important;
+		}
+		.m-font-22 {
+			font-size: 22px !important;
+		}
+		.m-font-24 {
+			font-size: 24px !important;
+		}
+		.m-font-26 {
+			font-size: 26px !important;
+		}
+		.m-font-28 {
+			font-size: 28px !important;
+		}
+		.m-font-30 {
+			font-size: 30px !important;
+		}
+		.m-font-32 {
+			font-size: 32px !important;
+		}
+		.m-weight-normal {
+			font-weight: normal !important
+		}
+		.m-weight-bold {
+			font-weight: bold !important;
+		}
+		/*grid*/
+		.m-span10 {
+			width: 100% !important;
+		}
+		.m-span9 {
+			width: 90% !important;
+		}
+		.m-span8 {
+			width: 80% !important;
+		}
+		.m-span7 {
+			width: 70% !important;
+		}
+		.m-span6 {
+			width: 60% !important;
+		}
+		.m-span5 {
+			width: 50% !important;
+		}
+		.m-height-5 {
+			height: 5px !important;
+			line-height: 5px !important;
+			font-size: 5px !important;
+		}
+		.m-height-10 {
+			height: 10px !important;
+			line-height: 10px !important;
+			font-size: 10px !important;
+		}
+		.m-height-15 {
+			height: 15px !important;
+			line-height: 15px !important;
+			font-size: 15px !important;
+		}
+		.m-height-20 {
+			height: 20px !important;
+			line-height: 20px !important;
+			font-size: 20px !important;
+		}
+		.m-height-25 {
+			height: 25px !important;
+			line-height: 25px !important;
+			font-size: 25px !important;
+		}
+		.m-height-30 {
+			height: 30px !important;
+			line-height: 30px !important;
+			font-size: 30px !important;
+		}
+		.m-height-35 {
+			height: 35px !important;
+			line-height: 35px !important;
+			font-size: 35px !important;
+		}
+		.m-height-40 {
+			height: 40px !important;
+			line-height: 40px !important;
+			font-size: 40px !important;
+		}
+		/*Floats*/
+		.m-float-l {
+			float: left !important;
+		}
+		.m-float-r {
+			float: right !important;
+		}
+		.m-float-clr {
+			clear: both !important;
+		}
+		/*Stacking*/
+		.m-block {
+			display: block !important;
+			width: 100% !important;
+		}
+		.m-block-padding {
+			display: block !important;
+			width: 90% !important;
+			padding-left: 5% !important;
+			padding-right: 5% !important;
+		}
+		.sub {
+			display: table-footer-group !important;
+			width: 100%;
+		}
+		.main {
+			display: table-header-group !important;
+			width: 100%;
+		}
+		.m-bg-color-blue {
+			background-color: #0871C4 !important;
+		}
+		/*Padding and Margin*/
+		.m-padding {
+			padding-left: 5% !important;
+			padding-right: 5% !important;
+		}
+		.m-margin-top {
+			margin-top: 20px !important;
+		}
+		.m-margin-bottom {
+			margin-bottom: 20px !important;
+		}
+		/*Hide and show*/
+		.m-hide {
+			display: none !important;
+		}
+		.m-show {
+			display: block !important;
+			visibility: visible !important;
+			overflow: visible !important;
+			max-height: inherit !important;
+		}
+		/*Backgrounds*/
+		.m-background {
+			background-position: center top !important;
+			background-size: cover !important;
+			background-repeat: no-repeat !important;
+			height: auto !important;
+		}
+		.m-background-change {
+			background-image: url('example.jpg') !important;
+		}
+		.m-background-height-200 {
+			height: 200px !important;
+			line-height: 200px !important;
+			font-size: 200px !important;
+		}
+		.m-background-height-300 {
+			height: 300px !important;
+			line-height: 300px !important;
+			font-size: 300px !important;
+		}
+		.hamburger1 {
+			display: block !important;
+			overflow: visible !important;
+			visibility: visible !important;
+			max-height: inherit !important;
+			border-bottom: 5px solid #0D89F6;
+		}
+		}
+		
+	</style>
+	<style>
+		/*Targets ios 10 and 11 that support video and interactive elements*/
+		/* $$$$$ remove , screen so it reads as below and add a media query within the support otherwise ipad shows both headers mobile and desktop... remember to close new media query at bttom*/
+		@supports (-webkit-overflow-scrolling:touch) and (color:#ffffffff) {
+			@media only screen and (max-width: 609px) {
+		/*Shows the interactive divs*/
+		div[class^=interactive] {
+			display:block!important;
+			max-height: inherit !important;
+			overflow: visible !important;
+			visibility: visible !important;
+		}
+		div[class^=video] {
+			display:block!important;
+			max-height: inherit !important;
+			overflow: visible !important;
+			visibility: visible !important;
+		}
+		div[class^=hamburger] {
+			display:block!important;
+			max-height: inherit !important;
+			overflow: visible !important;
+			visibility: visible !important;
+		}
+		/*Hides the Fallbacks*/
+		div[class^=fallback-interactive] {
+			display: none !important;
+		}
+		div[class^=fallback-video] {
+			display: none !important;
+		}
+		div[class^=fallback-hamburger] {
+			display: none !important;
+		}
+
+		/*Nav Styles*/
+		/* $$$$$ Add important to these*/
+		#mobile-checkbox:checked + .menu-wrapper {
+				max-height: 550px !important;
+				text-align: left !important;
+				background-color: #ededed !important;
+				display: block !important;
+				visibility: visible !important;
+				overflow: visible !important;
+		}
+		.mobileLink-a::after {
+				content: url('http://www.rentalcars.com/emailimages/globe2.png');
+				padding-top: 5%;
+				float: right;
+				font-size: 18px;
+				font-family: Tahoma;
+		}
+		.mobileLink-b::after {
+			content: url('http://www.rentalcars.com/emailimages/city2.png');
+			padding-top: 5%;
+			float: right;
+			font-size: 18px;
+			font-family: Tahoma;
+		}
+		.mobileLink-c::after {
+			content: url('http://www.rentalcars.com/emailimages/plane_sideways2.png');
+			padding-top: 5%;
+			float: right;
+			font-size: 18px;
+			font-family: Tahoma;
+		}
+		.mobileLink-d::after {
+			content: url('http://www.rentalcars.com/emailimages/location2.png');
+			padding-top: 5%;
+			float: right;
+			font-size: 18px;
+			font-family: Tahoma;
+		}
+		.mobileLink-e::after {
+			content: url('http://www.rentalcars.com/emailimages/car2.png');
+			padding-top: 5%;
+			float: right;
+			font-size: 18px;
+			font-family: Tahoma;
+		}
+		.m-lh-85 {
+			line-height: 85px !important;
+		}
+												
+		.nocta {
+		font-family: Helvetica, Arial, sans-serif;
+		line-height: 70px;
+		color: #303030!important;
+		text-decoration: none!important;
+		border-radius: 0px!important;
+		display: inline-block!important;
+		font-size: 12px!important;
+		border-bottom: 1px solid #f1f1f1;
+		width: 100%;
+		text-transform: uppercase;
+		box-sizing: border-box;
+		-webkit-transition: all 300ms ease-in-out;
+		-moz-transition: all 300ms ease-in-out;
+		-ms-transition: all 300ms ease-in-out;
+		-o-transition: all 300ms ease-in-out;
+		transition: all 300ms ease-in-out;
+		}
+		.menu-wrapper {
+		width: 90%!important;
+		padding-right: 5%!important;
+		padding-left: 5%!important;
+		background-color: #ffffff!important;
+		margin-bottom: 15px !important;
+		margin-top: 0px;
+		max-height: 0;
+		overflow: hidden;
+		visibility: hidden;
+		display: none;
+		
+		}
+		#mobile-label {
+		cursor: pointer;
+		display: block !important;
+		margin-right: 0px;
+		-webkit-tap-highlight-color: transparent;
+		z-index: 1000!important;
+		position: relative!important;
+		font-size: 13px!important;
+		visibility: visible!important;
+		overflow: visible !important;
+		max-height: inherit !important;
+		}
+
+		}
+		</style>
+<!-- $$$$$ Style Sheet Module Ends-->
