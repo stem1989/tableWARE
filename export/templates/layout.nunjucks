@@ -1,0 +1,28 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="x-apple-disable-message-reformatting">
+		<meta name="author" content="Steven Mansfield" />
+		<!--[if gte mso 9]><!-->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+		<!--<![endif]-->
+		{% block styles %} {% endblock %}
+</head>
+<body class="body" style="width: 100%; margin: 0; padding: 0;">
+	<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+		 <tbody>
+		   <tr>
+		      <td align="center">
+		      	
+		      	{% block content %} {% endblock %}
+
+		      </td>
+		    </tr>
+		  </tbody>
+		</table>
+	</body>
+</html>

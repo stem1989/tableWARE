@@ -1,0 +1,10 @@
+{% extends "layout.nunjucks" %}
+{% block styles %}
+	{% include "partials/styles.html" %}
+{% endblock %}
+
+{% block content %}
+	{% include "partials/pre_header.html" %}
+	{% include "partials/logo_and_nav.html" %}
+	{% include "partials/h1.html" %}
+{% endblock %}
